@@ -1,0 +1,1178 @@
+{
+ "geoms": {
+ "geom1_tallrect_overview": {
+ "geom": "tallrect",
+"classed": "geom1_tallrect_overview",
+"aes": {
+"xmin": "rank - 0.5",
+"xmax": "rank + 0.5",
+"key": "rank",
+"fill": "Status",
+"showSelected1": "Status"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "transparent",
+"showSelected": "Status",
+"help_showSelected": "Status" 
+},
+"types": {
+"fill": "rgb",
+"xmin": "numeric",
+"xmax": "numeric",
+"key": "numeric",
+"showSelected1": "factor",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom1_tallrect_overview_chunk1.tsv": {
+ "bytes":      303,
+"rows": 12 
+} 
+} 
+},
+"geom2_line_overview": {
+ "geom": "line",
+"classed": "geom2_line_overview",
+"aes": {
+"x": "rank",
+"y": "value",
+"colour": "version",
+"group": "version",
+"showSelected1": "version"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": "version",
+"help_showSelected": "version" 
+},
+"types": {
+"colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"group": "character",
+"showSelected1": "character",
+"PANEL": "factor"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom2_line_overview_chunk1.tsv": {
+ "bytes":     1469,
+"rows": 36 
+} 
+} 
+},
+"geom3_labelaligned_overview": {
+ "geom": "label_aligned",
+"classed": "geom3_labelaligned_overview",
+"aes": {
+"x": "rank",
+"y": "value",
+"label": "version",
+"colour": "version",
+"showSelected1": "version"
+},
+"params": {
+ "label_r":     0.15,
+"alignment": "vertical",
+"min_distance":      0.1,
+"background_rect": true,
+"na.rm": false,
+"na.rm": false,
+"hjust":        0,
+"showSelected": "version",
+"help_showSelected": "version" 
+},
+"types": {
+"colour": "rgb",
+"y": "numeric",
+"x": "numeric",
+"label": "character",
+"showSelected1": "character",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"PANEL" 
+],
+"subset_order": [
+ "showSelected1",
+"PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom3_labelaligned_overview_chunk1.tsv": {
+ "bytes":      310,
+"rows": 6 
+} 
+} 
+},
+"geom4_tallrect_overview": {
+ "geom": "tallrect",
+"classed": "geom4_tallrect_overview",
+"aes": {
+"xmin": "rank - 0.5",
+"xmax": "rank + 0.5",
+"clickSelects": "commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":        1,
+"colour": "#000000",
+"fill": "transparent",
+"clickSelects": "commit",
+"alpha_off":        0,
+"colour_off": "transparent",
+"help_clickSelects": "commit" 
+},
+"types": {
+"xmin": "numeric",
+"xmax": "numeric",
+"clickSelects": "linetype",
+"PANEL": "factor",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "PANEL" 
+],
+"subset_order": [
+ "PANEL" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom4_tallrect_overview_chunk1.tsv": {
+ "bytes":      641,
+"rows": 12 
+} 
+} 
+},
+"geom5_hline_details": {
+ "geom": "hline",
+"classed": "geom5_hline_details",
+"aes": {
+"yintercept": "seconds"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#BEBEBE" 
+},
+"types": {
+"yintercept": "numeric",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom5_hline_details_chunk1.tsv": {
+ "bytes":       14,
+"rows": 1 
+} 
+} 
+},
+"geom6_text_details": {
+ "geom": "text",
+"classed": "geom6_text_details",
+"aes": {
+"x": "0",
+"y": "seconds * 1.1",
+"label": "sprintf(\"time limit = %s seconds\", paste(seconds))"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"anchor": "start" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [],
+"subset_order": [],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom6_text_details_chunk1.tsv": {
+ "bytes":       72,
+"rows": 1 
+} 
+} 
+},
+"geom7_vline_details": {
+ "geom": "vline",
+"classed": "geom7_vline_details",
+"aes": {
+"xintercept": "N",
+"key": "1",
+"showSelected1": "commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"colour": "#BEBEBE",
+"showSelected": "commit",
+"help_showSelected": "commit" 
+},
+"types": {
+"xintercept": "numeric",
+"key": "numeric",
+"showSelected1": "linetype",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom7_vline_details_chunk1.tsv": {
+ "bytes":      299,
+"rows": 6 
+} 
+} 
+},
+"geom8_text_details": {
+ "geom": "text",
+"classed": "geom8_text_details",
+"aes": {
+"x": "N",
+"y": "0",
+"label": "sprintf(\"largest common N=%s\", paste(N))",
+"key": "1",
+"showSelected1": "commit"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"colour": "#7F7F7F",
+"showSelected": "commit",
+"help_showSelected": "commit",
+"anchor": "end" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "numeric",
+"showSelected1": "linetype",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom8_text_details_chunk1.tsv": {
+ "bytes":      544,
+"rows": 6 
+} 
+} 
+},
+"geom9_text_details": {
+ "geom": "text",
+"classed": "geom9_text_details",
+"aes": {
+"x": "0",
+"y": "0",
+"label": "substring(commit, 1, 10)",
+"href": "paste0(\"https://github.com/Rdatatable/data.table/commit/\", commit)",
+"key": "1",
+"showSelected1": "commit"
+},
+"params": {
+ "parse": false,
+"check_overlap": false,
+"na.rm": false,
+"na.rm": false,
+"vjust":        0,
+"showSelected": "commit",
+"help_showSelected": "commit",
+"anchor": "start" 
+},
+"types": {
+"x": "numeric",
+"y": "numeric",
+"label": "linetype",
+"href": "character",
+"key": "numeric",
+"showSelected1": "linetype",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1" 
+],
+"subset_order": [
+ "showSelected1" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom9_text_details_chunk1.tsv": {
+ "bytes":     1107,
+"rows": 6 
+} 
+} 
+},
+"geom10_ribbon_details": {
+ "geom": "ribbon",
+"classed": "geom10_ribbon_details",
+"aes": {
+"x": "N",
+"ymin": "min",
+"ymax": "max",
+"key": "version",
+"fill": "version",
+"group": "version",
+"showSelected1": "version",
+"showSelected2": "commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"alpha":      0.2,
+"colour": "transparent",
+"showSelected": [ "version", "commit" ],
+"help_showSelected": [ "version", "commit" ] 
+},
+"types": {
+"fill": "rgb",
+"x": "numeric",
+"ymin": "numeric",
+"ymax": "numeric",
+"key": "character",
+"group": "character",
+"showSelected1": "character",
+"showSelected2": "linetype",
+"PANEL": "integer",
+"colour": "rgb"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom10_ribbon_details_chunk1.tsv": {
+ "bytes":    16099,
+"rows": 135 
+} 
+} 
+},
+"geom11_line_details": {
+ "geom": "line",
+"classed": "geom11_line_details",
+"aes": {
+"x": "N",
+"y": "median",
+"key": "version",
+"colour": "version",
+"group": "version",
+"showSelected1": "version",
+"showSelected2": "commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"showSelected": [ "version", "commit" ],
+"help_showSelected": [ "version", "commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"group": "character",
+"showSelected1": "character",
+"showSelected2": "linetype",
+"PANEL": "integer"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2",
+"group" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom11_line_details_chunk1.tsv": {
+ "bytes":    12590,
+"rows": 135 
+} 
+} 
+},
+"geom12_point_details": {
+ "geom": "point",
+"classed": "geom12_point_details",
+"aes": {
+"x": "N",
+"y": "unit.value",
+"key": "version",
+"colour": "version",
+"showSelected1": "version",
+"showSelected2": "commit"
+},
+"params": {
+ "na.rm": false,
+"na.rm": false,
+"fill": "#FFFFFF",
+"showSelected": [ "version", "commit" ],
+"help_showSelected": [ "version", "commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"key": "character",
+"showSelected1": "character",
+"showSelected2": "linetype",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom12_point_details_chunk1.tsv": {
+ "bytes":     1559,
+"rows": 18 
+} 
+} 
+},
+"geom13_labelaligned_details": {
+ "geom": "label_aligned",
+"classed": "geom13_labelaligned_details",
+"aes": {
+"x": "N",
+"y": "unit.value",
+"label": "version",
+"key": "version",
+"colour": "version",
+"showSelected1": "version",
+"showSelected2": "commit"
+},
+"params": {
+ "label_r":     0.15,
+"alignment": "horizontal",
+"min_distance":      0.1,
+"background_rect": true,
+"na.rm": false,
+"na.rm": false,
+"vjust":     -0.1,
+"alpha":      0.5,
+"showSelected": [ "version", "commit" ],
+"help_showSelected": [ "version", "commit" ] 
+},
+"types": {
+"colour": "rgb",
+"x": "numeric",
+"y": "numeric",
+"label": "character",
+"key": "character",
+"showSelected1": "character",
+"showSelected2": "linetype",
+"PANEL": "integer",
+"group": "character"
+},
+"chunk_order": [],
+"nest_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"subset_order": [
+ "showSelected1",
+"showSelected2" 
+],
+"chunks": 1,
+"total": 1,
+"chunk_info": {
+ "geom13_labelaligned_details_chunk1.tsv": {
+ "bytes":     1703,
+"rows": 18 
+} 
+} 
+} 
+},
+"duration": {
+ "commit":     1000 
+},
+"selectors": {
+ "Status": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "0", "1" ],
+"levels": [ "0", "1" ],
+"update": [
+ "geom1_tallrect_overview" 
+] 
+},
+"version": {
+ "type": "multiple",
+"legend": true,
+"is.variable.value": false,
+"showSelected": true,
+"selected": [ "Before", "HEAD", "Regression" ],
+"levels": [ "Before", "HEAD", "Regression" ],
+"update": [
+ "geom2_line_overview",
+"geom3_labelaligned_overview",
+"geom10_ribbon_details",
+"geom11_line_details",
+"geom12_point_details",
+"geom13_labelaligned_details" 
+] 
+},
+"commit": {
+ "is.variable.value": false,
+"type": "single",
+"clickSelects": true,
+"showSelected": true,
+"selected": "11ab05ab1b6cf5ca602f8632bc2a72d47e85583a",
+"levels": [ "11ab05ab1b6cf5ca602f8632bc2a72d47e85583a", "38328a3a69f5fead3abac8560a6c9f42f358a3f7", "793f8545c363d222de18ac892bc7abb80154e724", "4aadde8f5a51cd7c8f3889964e7280432ec65bbc", "b417000b570133d1d014a4745163142d0c68e195", "4bda6dac7ede429434412ede26b71cfada76f33d" ],
+"update": [
+ "geom4_tallrect_overview",
+"geom7_vline_details",
+"geom8_text_details",
+"geom9_text_details",
+"geom10_ribbon_details",
+"geom11_line_details",
+"geom12_point_details",
+"geom13_labelaligned_details" 
+],
+"duration":     1000 
+} 
+},
+"plots": {
+ "overview": {
+ "panel_margin_lines":     0.27,
+"legend": {
+ "version": {
+ "guide": "legend",
+"geoms": [ "path", "gTree" ],
+"title": "version",
+"class": "version",
+"selector": "version",
+"is_discrete": true,
+"legend_type": "colour",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "pathcolour": "#FF0000",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "Before",
+"gTreecolour": "#FF0000",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":        0,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+},
+{
+ "pathcolour": "#0000FF",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "HEAD",
+"gTreecolour": "#0000FF",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":        0,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+},
+{
+ "pathcolour": "#EE82EE",
+"pathsize":      0.5,
+"pathlinetype":        1,
+"label": "Regression",
+"gTreecolour": "#EE82EE",
+"gTreefill": "#FFFFFF",
+"gTreesize":       12,
+"gTreeangle":        0,
+"gTreehjust":        0,
+"gTreevjust":      0.5,
+"gTreealpha":        1,
+"gTreefamily": "",
+"gTreefontface":        1,
+"gTreelineheight":      1.2 
+} 
+] 
+},
+"Status": {
+ "guide": "legend",
+"geoms": "polygon",
+"title": "Status",
+"class": "Status",
+"selector": "Status",
+"is_discrete": true,
+"legend_type": "fill",
+"text_size": "9.6pt",
+"title_size": "12pt",
+"entries": [
+ {
+ "polygonfill": "#FFFFFF",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":      0.5,
+"label": "1" 
+},
+{
+ "polygonfill": "#BEBEBE",
+"polygonsize":      0.5,
+"polygonlinetype":        1,
+"polygonalpha":      0.5,
+"label": "0" 
+} 
+] 
+} 
+},
+"strips": {
+ "right": [
+ "N",
+"seconds" 
+],
+"top": [
+ "",
+"" 
+],
+"n": {
+ "top":        1,
+"right":        1 
+} 
+},
+"layout": {
+ "PANEL": [ "1", "2" ],
+"ROW": [ 1, 2 ],
+"COL": [ 1, 1 ],
+"variable": [ "N", "seconds" ],
+"SCALE_X": [ 1, 1 ],
+"SCALE_Y": [ 1, 2 ],
+"AXIS_Y": [ true, true ],
+"AXIS_X": [ false, true ],
+"coord_fixed": [ false, false ],
+"width_proportion": [        1,        1 ],
+"height_proportion": [      0.5,      0.5 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+       2,
+       3,
+       4,
+       5,
+       6 
+],
+[
+        1,
+       2,
+       3,
+       4,
+       5,
+       6 
+] 
+],
+"y": [
+ [
+     6000,
+    8000,
+   10000,
+   12000,
+   14000,
+   16000 
+],
+[
+    0.006,
+   0.008,
+    0.01,
+   0.012,
+   0.014,
+   0.016 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+      0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5,
+       6,
+     6.5 
+],
+[
+      0.5,
+       1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5,
+       5,
+     5.5,
+       6,
+     6.5 
+] 
+],
+"y": [
+ [
+     6000,
+    7000,
+    8000,
+    9000,
+   10000,
+   11000,
+   12000,
+   13000,
+   14000,
+   15000,
+   16000 
+],
+[
+    0.006,
+   0.007,
+   0.008,
+   0.009,
+    0.01,
+   0.011,
+   0.012,
+   0.013,
+   0.014,
+   0.015,
+   0.016 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        1,
+       2,
+       3,
+       4,
+       5,
+       6 
+],
+"xlab": [
+ "1",
+"2",
+"3",
+"4",
+"5",
+"6" 
+],
+"xrange": [      0.2,      6.8 ],
+"xline": false,
+"xticks": true,
+"y": [
+     6000,
+    8000,
+   10000,
+   12000,
+   14000,
+   16000 
+],
+"ylab": [
+ "6000",
+"8000",
+"10000",
+"12000",
+"14000",
+"16000" 
+],
+"yrange": [ 5612.915, 16553.34 ],
+"yline": false,
+"yticks": true 
+},
+"axis2": {
+ "x": [
+        1,
+       2,
+       3,
+       4,
+       5,
+       6 
+],
+"xlab": [
+ "1",
+"2",
+"3",
+"4",
+"5",
+"6" 
+],
+"xrange": [      0.2,      6.8 ],
+"xline": false,
+"xticks": true,
+"y": [
+    0.006,
+   0.008,
+    0.01,
+   0.012,
+   0.014,
+   0.016 
+],
+"ylab": [
+ "0.006",
+"0.008",
+"0.010",
+"0.012",
+"0.014",
+"0.016" 
+],
+"yrange": [ 0.00576174, 0.01652574 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "commit rank over time",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "1",
+"2",
+"3",
+"4",
+"5",
+"6" 
+],
+"ylabs": [
+ "6000",
+"8000",
+"10000",
+"12000",
+"14000",
+"16000",
+"0.006",
+"0.008",
+"0.010",
+"0.012",
+"0.014",
+"0.016" 
+],
+"title": "Overview, select commit",
+"title_size": "14.4pt",
+"options": {
+ "width":      400,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": null 
+},
+"geoms": [
+ "geom1_tallrect_overview",
+"geom2_line_overview",
+"geom3_labelaligned_overview",
+"geom4_tallrect_overview" 
+] 
+},
+"details": {
+ "panel_margin_lines":     0.27,
+"strips": {
+ "top": [
+ "" 
+],
+"right": [
+ "" 
+],
+"n": {
+ "top":        0,
+"right":        0 
+} 
+},
+"layout": {
+ "PANEL": [ 1 ],
+"ROW": [ 1 ],
+"COL": [ 1 ],
+"SCALE_X": [ 1 ],
+"SCALE_Y": [ 1 ],
+"AXIS_X": [ true ],
+"AXIS_Y": [ true ],
+"coord_fixed": [ false ],
+"width_proportion": [        1 ],
+"height_proportion": [        1 ] 
+},
+"panel_background": {
+ "fill": "#FFFFFF",
+"colour": "transparent",
+"size":      0.5,
+"linetype":        1 
+},
+"panel_border": {
+ "fill": "transparent",
+"colour": "#7F7F7F",
+"size":      0.5,
+"linetype":        1 
+},
+"grid_major": {
+ "colour": "#E5E5E5",
+"size":      0.2,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+       2,
+       3,
+       4 
+] 
+],
+"y": [
+ [
+ -3.522879,
+      -3,
+-2.522879,
+      -2,
+-1.522879 
+] 
+] 
+} 
+},
+"grid_minor": {
+ "colour": "#FAFAFA",
+"size":      0.5,
+"linetype":        1,
+"lineend": "butt",
+"loc": {
+ "x": [
+ [
+        1,
+     1.5,
+       2,
+     2.5,
+       3,
+     3.5,
+       4,
+     4.5 
+] 
+],
+"y": [
+ [
+ -3.784318,
+-3.522879,
+-3.261439,
+      -3,
+-2.761439,
+-2.522879,
+-2.261439,
+      -2,
+-1.761439,
+-1.522879,
+-1.261439 
+] 
+] 
+} 
+},
+"axis1": {
+ "x": [
+        1,
+       2,
+       3,
+       4 
+],
+"xlab": [
+ "10",
+"100",
+"1000",
+"10000" 
+],
+"xrange": [ 0.8250005, 4.674989 ],
+"xline": false,
+"xticks": true,
+"y": [
+ -3.522879,
+      -3,
+-2.522879,
+      -2,
+-1.522879 
+],
+"ylab": [
+ "3e-04",
+"1e-03",
+"3e-03",
+"1e-02",
+"3e-02" 
+],
+"yrange": [ -3.811639, -1.229656 ],
+"yline": false,
+"yticks": true 
+},
+"xtitle": "N = number of data",
+"strip_text_xsize": "12pt",
+"xsize": "12pt",
+"xangle":        0,
+"xanchor": "middle",
+"ytitle": "seconds",
+"strip_text_ysize": "12pt",
+"ysize": "12pt",
+"yangle":        0,
+"yanchor": "end",
+"xlabs": [
+ "10",
+"100",
+"1000",
+"10000" 
+],
+"ylabs": [
+ "3e-04",
+"1e-03",
+"3e-03",
+"1e-02",
+"3e-02" 
+],
+"title": "Details for selected commit",
+"title_size": "14.4pt",
+"options": {
+ "width":      500,
+"height":      400 
+},
+"span": {
+ "rowspan": null,
+"colspan": null,
+"last_in_row": true 
+},
+"geoms": [
+ "geom5_hline_details",
+"geom6_text_details",
+"geom7_vline_details",
+"geom8_text_details",
+"geom9_text_details",
+"geom10_ribbon_details",
+"geom11_line_details",
+"geom12_point_details",
+"geom13_labelaligned_details" 
+] 
+} 
+},
+"source": "https://github.com/Rdatatable/data.table/pull/7912/files#diff-e7f10716f0ff9f29e3186a43cfed95d970b167dc4d6a92c00b9e0736bf4b05ae",
+"title": "Performance testing with git bisect in data.table DT_by__fixed_in__4558_Before_Regression" 
+}
